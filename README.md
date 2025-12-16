@@ -19,6 +19,12 @@ This tool was built to scrape, quantify, and visualize that distress signal.
     * Generates a **Spread %** (Arbitrage Opportunity).
 4.  **Risk Scoring:** Assigns a "Beta" to each asset class to weight the risk of illiquidity (e.g., a McLaren has a higher liquidity risk/beta than a Honda Civic).
 
+
+## ⚠️ Disclaimer
+This tool is for **educational and research purposes only**. It uses synthetic data generation for demonstration to comply with web scraping policies.
+
+"Sambung Bayar" (loan continuation) deals often exist in a legal grey area in Malaysia. This tool scans listing data but does not verify the legality of any specific transaction. Proceed with caution and consult legal counsel before engaging in such deals.
+
 ### 📊 Logic Sample
 ```python
 # The "Gamble" Equation
@@ -27,7 +33,3 @@ if margin_pct > 25 and risk_score >= 30:
 # The "Alpha" Equation
 elif margin_pct > 15 and risk_score < 15:
     verdict = "💎 PRIME ALPHA"
-
-###⚠️ Disclaimer
-
-This tool is for educational and research purposes only. It uses synthetic data generation for demonstration to comply with web scraping policies. "Sambung Bayar" deals often exist in a legal grey area in Malaysia; proceed with caution.
