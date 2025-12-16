@@ -18,6 +18,7 @@ This tool was built to scrape, quantify, and visualize that distress signal.
     * Compares against **Fair Market Value (FMV)** baselines.
     * Generates a **Spread %** (Arbitrage Opportunity).
 4.  **Risk Scoring:** Assigns a "Beta" to each asset class to weight the risk of illiquidity (e.g., a McLaren has a higher liquidity risk/beta than a Honda Civic).
+5.  Statistical Validation: Runs a Welch’s T-Test (in hypothesis_testing.py) to confirm that the spread between "Shadow" and "Retail" listings is statistically significant (p<0.01), proving the existence of a structural risk premium.
 
 
 ## ⚠️ Disclaimer
