@@ -27,3 +27,7 @@ if margin_pct > 25 and risk_score >= 30:
 # The "Alpha" Equation
 elif margin_pct > 15 and risk_score < 15:
     verdict = "💎 PRIME ALPHA"
+
+⚠️ Disclaimer
+
+This tool is for educational and research purposes only. It uses synthetic data generation for demonstration to comply with web scraping policies. "Sambung Bayar" deals often exist in a legal grey area in Malaysia; proceed with caution.
